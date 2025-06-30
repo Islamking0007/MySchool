@@ -1,0 +1,233 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html,body{
+	font-family: Roboto,sans-serif,arial;
+	font-size: 16px;
+	color: #242424;
+}
+.container{
+	width: 1200px;
+	margin: 0px auto;
+}
+.main-section{
+	width: 100%;
+	float: left;
+	padding: 70px 0px 70px 0px;
+
+}
+
+.event{
+	margin-left: px;
+	font-size: 20px;
+}
+.event_ul{
+	font-size: 20px;
+}
+.newlogo{
+	width: 25px;
+	height: 25px;
+}
+.NoticeBoards{
+	color: #46b7c1;
+	margin-top: 120px;
+}
+
+#Noticeboards{
+	margin-left: 20px;
+
+}
+
+.imag{
+	width: 25px;
+	height: 25px;
+	
+}
+.notext{
+	margin-left: 20px;
+	font-size: 20px;
+}
+.heading{
+	font-size: 28px;
+	font-weight: 500px;
+	border-bottom: 1px solid #46b7c1;
+	margin-bottom: 20px ;
+	margin-left: 20px;
+	color: #46b7c1;
+
+}
+.about{
+	margin-left: 30px;
+}
+.about_a4{
+	margin-left: 20px;
+	font-size: 22px;
+}
+.about_p{
+	margin-left: 24px;
+	font-size: 20px;
+}
+.schoolphoto{
+	width: 100%;
+	height: 60%;
+	margin-left: 25px;
+	margin-top: 5px;
+}
+.header{
+	background: #46b7c1;
+	padding: 6px;
+}
+.header b {
+	background: #fff;
+	color:red;
+	padding: 20px;
+	font-size: 20px;
+}
+.header marquee{
+	font-size: 20px;
+	color: #fff;
+	width: 80%;
+}
+
+.logo{
+	width: 380px;
+	height: 150px;
+
+	}
+
+nav{
+	float: right;
+	padding: 25px 0px;
+
+}
+
+nav a{
+	color: black;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: 5px;
+	padding: 2px 10px;
+	font-weight: 500px;
+}
+.event1 img{
+	width: 20px;
+	height: 15px;
+	margin:auto;
+	float: left;
+}
+.logo1 div{
+	width: 45%;
+	float: left;
+	line-height: 30px;
+	font-size: 18px;
+
+}
+.logo1 h4{
+	font-size: 22px;
+
+}
+.logo1 p {
+	line-height: 42px;
+
+}
+.logo1 img{
+	width: 40%;
+	float: left;
+}
+.award p{
+	width: 100%;
+	float: left;
+	font-size: 16px;
+
+}
+.award img{
+	width: 100%;
+}
+.award b{
+	min-width: 115px;
+	float: left;
+	margin-bottom: 20px;
+
+}
+
+.award h3{
+	font-size: 23px;
+	margin-bottom: 20px;
+	text-align: centern;
+}
+
+.testimonial{
+	width: 30.5%;
+	float: left;
+	margin-right: 2.5%;
+}
+.testimonial-text{
+	background: #46b7c1;
+	padding: 20px;
+	line-height: 35px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+}
+
+.testimonial-detail{
+	float: left;
+	margin-top: 10px;
+
+}
+.testimonial-img img{
+	border-radius: 50%;
+}
+
+.testimonial-name{
+	margin-left: 10px;
+	float: left;
+}
+.testimonial-name{
+	font-size: 18px;
+	margin-top: 8px;
+}
+.gallery img{
+	width: 24%;
+}
+
+.footer{
+	background-color: #46b7c2;
+	padding: 20px 0px;
+	width: 100%;
+	float: left;
+
+}
+.footer-logo{
+	width: 70%;
+}
+.footer-sect{
+	width: 100%;
+	float: left;
+	text-align: center;
+
+}
+.footer-sect a{
+	color: #fff;
+	margin-left: 10px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

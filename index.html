@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>School Website Template</title>
+	<link rel="stylesheet"  href="CSS/style.css">
+</head>
+<body onload="showTime()">
+<div class="header">
+	<div class="container">
+
+
+		 <!-- Clock Time Coding...? -->
+		<style type="text/css">
+		h6{
+
+			font-size: 13px;
+			text-align: right;
+			font-family: verdana;
+			color: red;
+/*			text-align: center;
+			position: absolute;*/
+		}
+	</style>
+
+	<h6>
+	</h6>
+<script type="text/javascript">
+	function showTime(){
+		var d = new Date();
+		var h = d.getHours();
+		var m = d.getMinutes();
+		var s = d.getSeconds();
+		var x = "AM";
+
+		if (h>12){
+			h=h-12;
+			//h =13-12=1
+		}
+
+		if (h>=12){
+			x ="PM";
+		}
+		h = h < 10 ? "0" + h : h;
+		m = m < 10 ? "0" + m : m;
+		s = s < 10 ? "0" + s : s;
+
+		var time = h + " : " + m + " : " + s + " " + x;
+		document.getElementsByTagName('h6')[0].innerText=time;
+		setTimeout(showTime,1000);
+	}
+</script>
+
+
+	<style>
+		#gyan{
+			color: black;
+			font-size: 20px;
+			text-align: center;
+			margin-top: 8px;
+			cursor: pointer;
+			transition: 2s;
+
+		}
+	</style>
+
+		<b>NEWS :</b>
+		
+		<marquee>
+			<h3>My College: Intelligence plus curisoity-that is the root of true education</h3>
+		</marquee>
+	</div>
+</div>
+
+
+<div class="container1">
+	<img src="images/logo00.jpg" class="logo">
+
+	<nav><b>
+		<a href="#">Home</a>
+		<a href="#">About us</a>
+		<a href="#">Events</a>
+		<a href="#">Gallery</a>
+		<a href="#">Notice</a>
+		<a href="#">Blogs</a>
+		<a href="#">Contact us</a></b>
+	</nav>
+</div>
+
+
+<div class="main-section" style="background: #fof3fa;">
+	<div class="container">
+
+
+		<div class="event">
+			<h2 class="heading2" style="margin: 20px; color: #46b7c1;"> 
+			Campus News</h2>
+			<div>
+				<marquee direction="up" scrollamunt="7" style="height: 340px; margin-left: 20px;">
+					<ul class="event_ul">
+						<li><i> 01-April-2023 :</i> lorme ipsm is simple dummy text me of the printing and typesse tting and industry. <img src="images/newlogo.gif" class="newlogo"></li>
+						<li><i> 01-April-2023 :</i> lorme ipsm is simple dummy text me of the printing and typesse tting and industry. <img src="images/newlogo.gif" class="newlogo"></li>
+						<li><i> 01-April-2023 :</i> lorme ipsm is simple dummy text me of the printing and typesse tting and industry. <img src="images/newlogo.gif" class="newlogo"></li>
+						<li><i> 01-April-2023 :</i> lorme ipsm is simple dummy text me of the printing and typesse tting and industry. <img src="images/newlogo.gif" class="newlogo"></li>
+						<li><i> 01-April-2023 :</i> lorme ipsm is simple dummy text me of the printing and typesse tting and industry. <img src="images/newlogo.gif" class="newlogo"></li>
+					</ul>
+				</marquee>
+			</div>
+		</div>
+
+
+		<div class="event">
+			<h2 class="heading" style="margin:20px"> Events</h2>
+
+
+
+			<div id="event1">
+				<ul>
+					<li style="margin-left:20px">
+						<span class="event-date">29<br/>
+							April lorme ipsum is simply dummy text of the printing and typesetting industry
+						</span>
+					</li>
+					
+				</ul>
+
+				<ul>
+					<li style="margin-left:20px">
+						<span class="event-date">29<br/>
+							April lorme ipsum is simply dummy text of the printing and typesetting industry
+						</span>
+					</li>
+					
+				</ul>
+
+				<ul>
+					<li style="margin-left:20px">
+						<span class="event-date">29<br/>
+							April lorme ipsum is simply dummy text of the printing and typesetting industry
+						</span>
+					</li>
+				</ul>
+
+				<ul>
+					<li style="margin-left:20px">
+						<span class="event-date">29<br/>
+							April lorme ipsum is simply dummy text of the printing and typesetting industry
+						</span>
+					</li>
+				</ul>
+
+			</div>
+
+		</div>
+		
+
+		<div  id="Noticeboards">
+			<h2 class="NoticeBoards"> Notice Boards</h2><hr/>
+			<div class="notext">
+				<ul>					
+					<li> 
+						<span>
+							lorme ipsum is simply dummy text of the printing and typesetting industry.
+							<img src="images/logo3.jpeg" class="imag">
+						</span>
+					</li>
+					
+				</ul>
+
+				<ul>					
+					<li> 
+						<span>
+							lorme ipsum is simply dummy text of the printing and typesetting industry.
+							<img src="images/logo3.jpeg" class="imag">
+						</span>
+					</li>
+					
+				</ul>
+
+				<ul>					
+					<li> 
+						<span>
+							lorme ipsum is simply dummy text of the printing and typesetting industry.
+							<img src="images/logo3.jpeg" class="imag">
+						</span>
+					</li>
+				</ul>
+
+				<ul>					
+					<li> 
+						<span>
+							lorme ipsum is simply dummy text of the printing and typesetting industry.
+							<img src="images/logo3.jpeg" class="imag">
+						</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+	</div>
+</div>
+
+<div class="main-section">
+	<div container about-us>
+		<div class="about">
+			<h2 class="heading">About my Html coding school</h2>
+			<h4 class="about_a4">A unique heritage school .</h4>
+			<p class="about_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+		</div>
+		<img src="images/schoolphoto.jpg" class="schoolphoto">
+	</div>
+</div>
+<div class="main-section award" style="background:f0f3fa;">
+	<div class="container">
+
+		<div class="event">
+			<h2 class="heading"> School Info </h2>
+				<div style="margin-left: 20px;">
+				<h3>
+					MY H H INTER COLLEGE </h3>
+					<p><b>Principal :</b>Dr. Sakil Sir (Math)</p>
+					<p><b>Address :</b> Mohammad Pur Wabai (Sambhal)</p>
+					<p><b>City :</b> Chandausi , India.</p>
+					<p><b>Contact No. :</b>  :+91xxxxxx58</p>
+					<p><b>Email Id:</b> Dr.Sakilsir7487@gmail.com</p>
+			</div>
+			
+		</div>
+		<div class="event">
+			<h2 class="heading">Our School Awards</h2>
+			<div>
+				<img src="images/schoolphoto1.jpg">
+			</div>
+		</div>
+		<div class="event">
+			<h2 class="heading">My School Certificate</h2>
+			<div>
+				<img src="images/.PNG">
+			</div>
+		</div>
+
+
+	</div>
+</div>
+<div class="main-section">
+	<div class="container">
+		<h2 class="heading">What parents say About our School</h2>
+		<div class="testimonial">
+			<div class="testimonial-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				
+			</div>
+			<div class="testimonial-detail">
+				<div class="testimonial-img">
+					<img src="images/testimonial-1.jpg">
+				</div>
+				<div class="testimonial-neme">
+					<h5>Firoj</h5>
+					<p>Web Develper</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+<div class="testimonial">
+			<div class="testimonial-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+			<div class="testimonial-detail">
+				<div class="testimonial-img">
+					<img src="images/testimonial-1.jpg">
+				</div>
+				<div class="testimonial-neme">
+					<h5>Firoj</h5>
+					<p>Web Develper</p>
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<div class="testimonial">
+			<div class="testimonial-text">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+			<div class="testimonial-detail">
+				<div class="testimonial-img">
+					<img src="images/testimonial-1.jpg">
+				</div>
+				<div class="testimonial-neme">
+					<h5>Firoj</h5>
+					<p>Web Develper</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="main-section Gallery" style="background:#f0f3fa;">
+	<div class="container">
+		<h2 class="heading">Our School Gallery</h2>
+		<img src="images/1.jpg">
+		<img src="images/2.jpg">
+		<img src="images/3.jpg">
+		<img src="images/4.jpg">
+		<img src="images/5.jpg">
+		<img src="images/6.jpg">
+		<img src="images/7.jpg">
+		<img src="images/8.jpg">
+	</div>
+</div>
+
+<div class="main-section">
+	<div class="container">
+		<h2 class="heading"> Placment</h2>
+		<marquee class="Placment" derection="left" scrollamunt="10">
+
+			<img src="images.Placment.jpg">
+		</marquee>
+	</div>
+</div>
+
+<div class="folder">
+	<div class="container">
+		<div class="footer-sect">
+			<img src="footer-logo" src="images/logo1.png">
+
+		</div>
+		<div class="footer-sect">
+			<a href="#">Home</a>
+			<a href="#">About us</a>
+			<a href="#">Tutorial</a>
+			<a href="#">Event</a>
+			<a href="#">Gallery</a>
+			<a href="#">Press Release</a>
+			<a href="#">Courses</a>
+			<a href="#">Contact Us</a>
+		</div>
+		<div class="footer-sect">
+			<img src="images/icon-fb.png">
+			<img src="images/icon-tw.png">
+			<img src="images/icon-in.png">
+			<img src="images/icon-yt.png">
+		</div>
+	</div>
+</div>
+</body>
+</html
+
+
+
+
+
